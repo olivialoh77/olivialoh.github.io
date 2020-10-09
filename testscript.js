@@ -1,22 +1,35 @@
-$("#slideshow2 > div:gt(0)").hide();
+$(document).ready(function() {
 
-setInterval(function() {
-  $('#slideshow2 > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow2');
-}, 3000);
+  $("#tab1_content").hide();
+  $("#tab2_content").hide();
+  $("#tab3_content").hide();
+  $("#tab4_content").hide();
 
-$("#slideshow > div:gt(0)").hide();
+  $("#tab1").click(function() {
+    $("#tab1_content").show();
+    $("#tab2_content").hide();
+    $("#tab3_content").hide();
+    $("#tab4_content").hide();
+  });
 
-setInterval(function() {
-  $('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-}, 3000);
+  $("#tab2").click(function() {
+    $("#tab2_content").show();
+    $("#tab1_content").hide();
+    $("#tab3_content").hide();
+    $("#tab4_content").hide();
+  });
 
+  $("#tab3").click(function() {
+    $("#tab3_content").show();
+    $("#tab1_content").hide();
+    $("#tab2_content").hide();
+    $("#tab4_content").hide();
+  });
+
+  $("#tab4").click(function() {
+    $("#tab4_content").show();
+    $("#tab1_content").hide();
+    $("#tab2_content").hide();
+    $("#tab3_content").hide();
+  });
+});
