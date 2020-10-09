@@ -1,0 +1,398 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+  #head {
+      border-radius: 50%;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Style the header */
+  .header1 {
+    padding: 115px;
+    padding-bottom: 70px;
+    text-align: left;
+    background: rgb(242,169,196);
+    background: linear-gradient(90deg, rgba(242,169,196,1) 0%, rgba(203,183,214,1) 50%, rgba(157,201,236,1) 100%);
+    color: white;
+
+  }
+  
+
+  /* Increase the font size of the h1 element */
+  .header1 h1 {
+    font-size: 40px;
+  }
+  
+
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: #353f4a;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #99b0cb;
+    color: #353f4a;
+  }
+   
+
+  /* Style title1 */
+  .title1 {
+    padding: 20px;
+    text-align: right;
+    background: #353f4a;
+    color: white;
+  }
+  
+  /* Increase the font size of the h1 element */
+  .title1 h1 {
+    font-size: 40px;
+    padding:5px;
+  }
+  th, td {
+    padding: 5px;
+  }
+  .title1 .skills {
+    padding:8px;
+    margin: auto;
+    text-align: center;
+    background: white; 
+    color: #353f4a;
+    border-radius: 25px;
+    opacity: 0.75;
+    width: 75%;
+
+  }
+
+  .title1 .skills h1{
+    font-size: 20px; 
+    padding:3px;
+  }
+
+  .title1 .coursework {
+    padding: 8px;
+    margin: auto;
+    text-align: center;
+    background: white; 
+    color: #353f4a;
+    border-radius: 25px;
+    opacity: 0.75;
+    width: 75%;
+  }
+
+  .title1 .coursework h1{
+    font-size: 20px; 
+    padding:3px;
+  }
+  .title1 .honors {
+    padding: 8px;
+    margin: auto;
+    text-align: center;
+    background: white; 
+    color: #353f4a;
+    border-radius: 25px;
+    opacity: 0.75;
+    width: 75%;
+  }
+
+  .title1 .honors h1{
+    font-size: 20px; 
+    padding: 3px;
+  }
+  /* Style title2 */
+  .title2 {
+    padding: 20px;
+    text-align: left;
+    background: rgb(242,169,196);
+    background: linear-gradient(90deg, rgba(242,169,196,1) 0%, rgba(203,183,214,1) 50%, rgba(157,201,236,1) 100%);
+    
+    color: white;
+ 
+  }
+  
+  #exp {
+    object-fit: cover;
+    opacity: 0.4;
+  }
+  
+  /* Increase the font size of the h1 element */
+  .title2 h1 {
+    font-size: 40px;
+    padding:5px;
+  }
+
+  .title2 .jobs {
+    padding: 8px;
+    margin: auto;
+    text-align: left;
+    background: white; 
+    color: #192b3f;
+    border-radius: 25px;
+    opacity: 0.60;
+    width: 75%;
+  }
+
+  .title2 .jobs h1{
+    font-size: 20px; 
+    padding:3px;
+  }
+
+  .title2 .clubs {
+    padding: 8px;
+    margin: auto;
+    text-align: left;
+    background: white; 
+    color: #192b3f;
+    border-radius: 25px;
+    opacity: 0.60;
+    width: 75%;
+  }
+
+  .title2 .clubs h1{
+    font-size: 20px;
+    padding:3px;
+  }
+  
+
+  /* Style title3 */
+  .title3 {
+    padding: 20px;
+    background: #353f4a;
+    color: white;
+    height: 2700px;
+  }
+  
+  /* Increase the font size of the h1 element */
+  .title3 h1 {
+    font-size: 40px;
+    padding: 5px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(242,169,196);
+    background: linear-gradient(90deg, rgba(242,169,196,1) 0%, rgba(203,183,214,1) 50%, rgba(157,201,236,1) 100%);
+  }
+
+  .footer h1 {
+    color: #353f4a;
+  }
+
+
+  .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+
+  
+  .button2 {
+    background-color: Transparent; 
+    color: white; 
+    border: 3px solid white;
+  }
+  
+  .button2:hover {
+    background-color: #99b0cb;
+    color: white;
+  }
+  
+  /* Style all font awesome icons */
+.fa {
+    padding: 5px;
+    font-size: 36px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-envelope-square{
+    color:#353f4a
+  }
+
+  .fa-github{
+    color:#353f4a
+  }
+
+  .fa-linkedin-square{
+    color:#353f4a
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width:100%;
+    }
+  }
+  
+  #slideshow {
+    position: relative;
+    width: 240px;
+    height: 80px;
+    padding: 5px;
+    
+  }
+  
+  #slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0.5;
+  }
+
+  .tab_div {
+    width: 100%;
+    transform: translateZ(0);
+  }
+  
+  .tabs_menu {
+    /*   background-color:blue; */
+    padding-top: 1%;
+    width: 10%;
+    float: left;
+  }
+  
+  ul.tabs {
+    padding: 0;
+  }
+  
+  #tab1,
+  #tab2,
+  #tab3,
+  #tab4 {
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 200%;
+  }
+  
+  ul.tabs li {
+    list-style-type: none;
+    border-right: 2px solid white;
+    font-size: 18px;
+    color: white;
+    /*   transition: background-color 0.2s ease; */
+  }
+  
+  
+  /* ul.tabs li:hover {
+    border-right: 2px solid #e1386c;
+    background-color: rgba( 255, 155, 180, .9);
+    font-weight: bold;
+  } */
+  
+  
+  #tab1_content,
+  #tab2_content,
+  #tab3_content,
+  #tab4_content {
+    /*   background-color:red; */
+    float: right;
+    width: 70%;
+    height: auto;
+    padding-top: 5%;
+  }
+  
+  #cproject1, 
+  #cproject2, 
+  #cproject3,
+  #cproject4,
+  #hproject1, 
+  #hproject2, 
+  #hproject3,
+  #hproject4,
+  #pproject1, 
+  #pproject2, 
+  #pproject3,
+  #sproject1, 
+  #sproject2, 
+  #sproject3,
+  #sproject4 {
+    background:#cccfd2;
+    padding: 10px;
+    color: #353f4a; 
+    border-radius: 25px;
+  }
+  
+  
+  /* hover effect */
+  
+  ul.tabs li {
+    display: inline-block;
+    position: relative;
+    padding: 1em;
+    cursor: pointer;
+    background:#353f4a;
+    color: white;
+    z-index: 0;
+  }
+  
+  ul.tabs li:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(242,169,196);
+    background: linear-gradient(90deg, rgba(242,169,196,1) 0%, rgba(203,183,214,1) 50%, rgba(157,201,236,1) 100%);
+   
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: transform .5s ease-out;
+  }
+  
+  ul.tabs li:hover:before {
+    transform: scaleX(1);
+  }
+
+p + ul {
+  margin-top: -10px;
+}
+
+ul li { padding: 2px 0px; }
