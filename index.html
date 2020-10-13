@@ -105,7 +105,7 @@
                   <td>Operating Systems</td>
                 </tr>
                 <tr>
-                  <td>Digital Electronic Circuits</td>
+                  <td>Digital Electronic Circuits/IC Design</td>
                   <td>Systems and Signals</td>
                   <td>Logic Design of Digital Systems</td>
                 </tr>
@@ -585,12 +585,15 @@
               <div id="tab4_content">
                   <h1 style="font-size: 160%";>Class Projects</h1>
                   <div id="sproject1">
-                    <h1 style="font-size: 130%">PacMan Agent (ENGR96A: AI Arena)</h1>
-                    <i style="color:#508dd3">Python &#x2022; AI </i>
+                    <h1 style="font-size: 130%">PacMan Agent (UCLA ENGR96A: AI Arena)</h1>
+                    <i style="color:#508dd3">AI &#x2022; Python </i>
                     <br>
                       <img src="assets/ComingSoon.jpg" style="width:200px;height:150px;padding:10px">
                       <p>
-                          Description Coming Soon
+                      <ul>
+                        <li>Designed evaluation function for PacMan reflex agent to win the game </li>
+                        <li>Implemented several search algorithms, Mini-max, Alpha-beta pruning, and Expecti-max, to enhance PacMan’s game play</li>
+                      </ul>
                       </p>
                     <p style="font-size: 75%">
                       <b>Period:</b> May 2020
@@ -598,38 +601,72 @@
                   </div>
                   <br>
                   <div id="sproject2">
-                    <h1 style="font-size: 130%">Line Follower Car (UCLA ECE 3: Intro to Electrical Engineering 6/2019)</h1>
-                    <i style="color:#508dd3">TI-RLSK&#x2022; Energia &#x2022; PID</i>
-                    <br>
-                      <img src="assets/IMG_5888.jpg" style="width:200px;height:150px;padding:10px">
+                      <h1 style="font-size: 130%">Absolute Value Detector (UCLA ECE 115C: Digital Electronic Circuits)</h1>
+                      <i style="color:#508dd3">EDA &#x2022; Virtuoso Cadence</i>
+                      <br>
+                      <img src="assets/ComingSoon.jpg" style="width:200px;height:150px;padding:10px">
                       <p>
-                          Description Coming Soon
+                          Description coming soon.
                       </p>
-                    <p style="font-size: 75%">
-                      <b>Period:</b> Jun 2019
-                    </p> 
+                      <p style="font-size: 75%">
+                          <b>Period:</b> May 2020
+                      </p>
                   </div>
                   <br>
                   <div id="sproject3">
-                    <h1 style="font-size: 130%">Square Motion Detector (UCLA ENGR 96C: Internet of Things 6/2019)</h1>
-                    <i style="color:#508dd3">STM32 &#x2022; SensorTile</i>
+                    <h1 style="font-size: 130%">Line-Following Car (UCLA ECE 3: Intro to Electrical Engineering)</h1>
+                    <i style="color:#508dd3">TI-RSLK &#x2022; Energia &#x2022; PID</i>
                     <br>
-                      <img src="assets/ComingSoon.jpg" style="width:200px;height:150px;padding:10px">
+                      <p>A line-following car made with TI-Robotics Systems Learning Kit and built on Energia platform that consistently follows a solid-line track with many bends and curves and also adjusts speed when encountering solid horizontal lines</p>
+                      <video controls="controls" width="560" height="315" name="Video Name" src="assets/linefollowercar.mov"></video>
                       <p>
-                          Description Coming Soon
+                        <ul>
+                            <li>Programmed PID feedback-control algorithms in Energia (C-based IDE):
+                                <ul>
+                                    <li>Utilized IR sensor fusion and IR sensor feedback in PID algorithm to enable car to stay on a solid black line track</li>
+                                    <li>Controlled car speed using a PID algorithm based off encoder feedback values</li></li>
+                                </ul>
+                        </ul>
                       </p>
                     <p style="font-size: 75%">
-                      <b>Period:</b> Jun 2019
+                        <b>Github:</b>
+                        <a href="https://github.com/olivialoh77/linefollowingcar">https://github.com/olivialoh77/linefollowingcar</a>
+                        <br>
+                        <b>Team Members:</b> Olivia Loh, Justine Lin
+                        <br>
+                        <b>Period:</b> Jun 2019
                     </p> 
                   </div>
                   <br>
                   <div id="sproject4">
-                    <h1 style="font-size: 130%">Zombie Dash Game (UCLA CS 32: Data Structures/OOP 2/2019)</h1>
-                    <i style="color:#508dd3">C++ &#x2022; Inheritance/Polymorphism&#x2022; Data Structures</i>
+                    <h1 style="font-size: 130%">Square Motion Detector (UCLA ENGR 96C: Internet of Things 6/2019)</h1>
+                    <i style="color:#508dd3">STM32 &#x2022; SensorTile</i>
                     <br>
+                      <!--<p> Simulate running strides</p>-->
                       <img src="assets/ComingSoon.jpg" style="width:200px;height:150px;padding:10px">
                       <p>
-                          Description Coming Soon
+                          Description coming soon.
+                          <!--<ul>
+                            <li>Calculated velocity and distance of square-shaped motion with STM SensorTile’s 3D accelerometer data</li>
+                            </ul>
+                           -->
+                      </p>
+                    <p style="font-size: 75%">
+                      <b>Period:</b> Jun 2019
+                    </p> 
+                  </div>
+                  <br>
+                  <div id="sproject5">
+                    <h1 style="font-size: 130%">Zombie Dash Game (UCLA CS 32: Data Structures/OOP 2/2019)</h1>
+                    <i style="color:#508dd3">Inheritance/Polymorphism &#x2022; Data Structures &#x2022; C++</i>
+                    <br>
+                      <p>A video game coded in C++, where our heroine, Penelope, leads people to safety and destroys Smart Zombies that follow her</p>
+                      <img src="assets/zombiedash.png" style="width:300px;height:250px;padding:10px">
+                      <p>
+                        <ul>
+                            <li>Coded game objects and their respective actions (in C++) that are called in the main loop for video game </li>
+                            <li>Used the concepts of object-oriented programming to support organized, maintainable code</li>
+                        </ul>
                       </p>
                     <p style="font-size: 75%">
                       <b>Period:</b> Feb 2019
