@@ -12,9 +12,9 @@ setInterval(function() {
 $(document).ready(function() {
   
   $("#tab1_content").hide();
-  $("#tab2_content").show();
+  $("#tab2_content").hide();
   $("#tab3_content").hide();
-  $("#tab4_content").hide();
+  $("#tab4_content").show();
 
   $("#tab1").click(function() {
    
